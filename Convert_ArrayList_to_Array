@@ -1,0 +1,81 @@
+
+
+
+//  Convert ArrayList to Array
+
+
+using System;
+
+
+
+namespace array_Prj_01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            System.Collections.ArrayList AL_01;
+
+            AL_01 = new System.Collections.ArrayList();
+
+
+            for (int i = 0; i < 100; i++)
+            {
+                AL_01.Add(5*i+10);
+            }
+
+
+            for (int i = 0; i < AL_01.Count; i++)
+            {
+                Console.Write("  AL_01[i] = " + AL_01[i]);
+
+                if (i % 3 == 0)
+                {
+
+                    Console.WriteLine();
+                }
+            }
+
+            //int[] arr = AL_01.ToArray();
+
+
+            int[] arr = new int[AL_01.Count];
+
+            for (byte i = 0; i < AL_01.Count; i++)
+            {
+                arr[i] = (int)AL_01[i];
+            }
+
+            
+            /*
+            //Type type = typeof(arr);
+
+            Type type;
+
+            type = typeof(int);
+
+            arr = AL_01.ToArray();
+            */
+
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write("  arr[i] = " + arr[i]);
+
+                if (i % 3 == 0)
+                {
+
+                    Console.WriteLine();
+                }
+            }
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
+
+
