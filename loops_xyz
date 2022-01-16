@@ -1,0 +1,36 @@
+
+/*
+[In reply to Boss_mummy21]
+فرض کنید ما سه تا حلقه ی تودر تو داریم. خب؟
+این جوری:
+*/
+
+
+for(int x= 0 ; x<= 1000 ; x++)
+{
+for(int y= 0 ; y<= 1500 ; y++)
+{
+for(int z= 0 ; z<= 2000 ; z++)
+{
+
+if( condition1 )
+{
+/*
+az halgheye z khaarej sho va az halghe ye y ham khaarej sho 
+va boro be x e ba`di  ;
+*/
+}
+
+
+}
+}
+}
+
+
+/*
+[In reply to AliRezaa Shahaamat]
+این چه جوری میشه؟
+
+*/
+
+
